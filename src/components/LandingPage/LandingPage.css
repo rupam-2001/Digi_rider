@@ -1,0 +1,204 @@
+/* General styles for larger screens */
+.landing_body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .get_started_section {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .storeName {
+    color: #09a7c7;
+    font-size: 65px;
+  }
+  
+  .Welcome_message {
+    color: #999;
+    font-size: 35px;
+  }
+  
+  .delivery-img {
+    padding-top: 40px;
+    height: 450px;
+    vertical-align: middle;
+    width: auto;
+  }
+  
+  .bttnContainer {
+    margin-top: 25px;
+  }
+  
+  .btn-link {
+    background: #0293a8;
+    border: 0px;
+    color: #fff;
+    font-size: 25px;
+    padding: 11px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-link:hover {
+    background: #fff;
+    color: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+    background-color: #24262b;
+    padding: 70px 0;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    width: 33%;
+    padding: 0 15px;
+  }
+  
+  .footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  
+  .footer-col ul li :not(:last-child) {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  
+  .footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  
+  .footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  
+  .Copyright {
+    color: #fff;
+  }
+  
+  .colpyright-section {
+    justify-content: space-evenly;
+    display: flex;
+    background: #24262b;
+  }
+  
+  /* Media query for smaller screens (mobile) */
+  @media (max-width: 767px) {
+    .get_started_section {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+    }
+  
+    .storeName {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .Welcome_message {
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .delivery-img {
+      height: auto;
+      width: 80%;
+      margin-top: 20px;
+    }
+  
+    .btn-link {
+      padding: 10px 30px;
+      font-size: 20px;
+    }
+  
+    .footer-col {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .footer-col h4 {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .footer-col h4::before {
+      width: 30px;
+    }
+  
+    .footer-col ul li a {
+      font-size: 14px;
+    }
+  
+    .social-links a {
+      height: 30px;
+      width: 30px;
+      line-height: 30px;
+    }
+  }
+  

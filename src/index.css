@@ -5,7 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background-image: url(https://digistall.in/static/media/whiteBg-01.67b5402d611b717fc3a5.jpg);
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
