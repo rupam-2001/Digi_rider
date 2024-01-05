@@ -10,15 +10,25 @@
     flex-direction: row;
     justify-content: space-around;
   }
+  .left-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
   .storeName {
     color: #09a7c7;
     font-size: 65px;
+    display: flex;
+    justify-content: center;
   }
   
   .Welcome_message {
     color: #999;
     font-size: 35px;
+    display: flex;
+    justify-content: center;
   }
   
   .delivery-img {
@@ -30,11 +40,13 @@
   
   .bttnContainer {
     margin-top: 25px;
+    display: flex;
+    justify-content: center;
   }
   
   .btn-link {
     background: #0293a8;
-    border: 0px;
+    border: 0;
     color: #fff;
     font-size: 25px;
     padding: 11px 50px;
@@ -42,12 +54,14 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
   }
   
   .btn-link:hover {
     background: #fff;
     color: black;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
   }
   
   .footer {
@@ -59,7 +73,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
   }
+  
   
   .container {
     max-width: 1170px;
@@ -100,7 +116,7 @@
     width: 50px;
   }
   
-  .footer-col ul li :not(:last-child) {
+  .footer-col ul li:not(:last-child) {
     margin-bottom: 10px;
   }
   
@@ -147,8 +163,8 @@
     display: flex;
     background: #24262b;
   }
-  
-  /* Media query for smaller screens (mobile) */
+
+  /* -------------------------------------------------------- */
   @media (max-width: 767px) {
     .get_started_section {
       flex-direction: column;
